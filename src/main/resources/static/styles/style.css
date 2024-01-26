@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 90% !important;
+}
+
+.btn-group {
+    margin-top: 10px;
+    position: relative;
+    display: inline-flex;
+    gap: 10px;
+    vertical-align: middle;
+    flex-direction: column;
+}
+
+.btn {
+    border-radius: 10px !important;
+}
+
+.card {
+    margin-top: 10px;
+}
