@@ -52,7 +52,7 @@
         <td th:text="${user.id}"></td>
         <td><a th:href="@{user-page/{id}(id=${user.id})}" th:text="${user.name}"></a></td>
         <td th:text="${user.age}"></td>
-        <td th:text="${user.email}"></td>
+        <td><a th:href="'mailto:'+${user.email}" th:text="${user.email}"></a></td>
     </tr>
 </table>
 
